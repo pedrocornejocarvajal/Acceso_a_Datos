@@ -22,8 +22,8 @@ public class Conexion {
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);
         }
-        String[] campos = "id varchar(50) NOT NULL, nombre varchar(50),apellido varchar(50), edad INT(20))";
-        crearTabla("pcornejo", campos);
+      //  String[] campos = "id varchar(50) NOT NULL, nombre varchar(50),apellido varchar(50), edad INT(20))";
+        //crearTabla("pcornejo", campos);
 
     }
 //
