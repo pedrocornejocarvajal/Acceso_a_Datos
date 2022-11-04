@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="767a2d30-a95b-45f5-adb4-c56234160afb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tarea3-1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pruebas/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pruebas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Datos/ad2223.pcornejo.Facturas.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Datos/ad2223.pcornejo.Mesa.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Datos/ad2223.pcornejo.Pedido.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Datos/ad2223.pcornejo.Productos.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/80bd8b51-6816-4359-a7b9-dec68ac4a98f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/80bd8b51-6816-4359-a7b9-dec68ac4a98f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tarea3-1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tarea3-1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +37,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-j-8.0.31.jar",
+    "last_opened_file_path": "C:/Users/pcornejo/Documents/EjercicioSegundo/Acceso_a_Datos/Tarea3-1/src/Datos",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -50,7 +49,12 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pcornejo\Documents\EjercicioSegundo\Acceso_a_Datos\Tarea3-1\src\Datos" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Tarea3-1" />
@@ -58,9 +62,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ad2223.pcornejo.Facturas.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/Datos/ad2223.pcornejo.Facturas.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Database Script.ad2223.pcornejo.Facturas.sql" />
       </list>
     </recent_temporary>
   </component>
@@ -73,6 +83,8 @@
       <option name="presentableId" value="Default" />
       <updated>1666941130643</updated>
       <workItem from="1666941132206" duration="7121000" />
+      <workItem from="1667546502005" duration="1542000" />
+      <workItem from="1667548073893" duration="9270000" />
     </task>
     <servers />
   </component>

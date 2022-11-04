@@ -1,4 +1,6 @@
+import java.io.*;
 import java.sql.*;
+import java.util.ArrayList;
 
 public class Main {
     private static final String urlConnection = "jdbc:mysql://dns11036.phdns11.es";
@@ -17,25 +19,41 @@ public class Main {
             //Creaciones de tablas
             crearTabla("Mesa", new String[]{"idMesa INT Primary Key AUTO_INCREMENT", "numComensales INT", "reserva TINYINT"});
             crearTabla("Productos", new String[]{"idProducto INT Primary Key AUTO_INCREMENT", "denominacion VARCHAR(45)", "precio DECIMAL(10,2)"});
-            crearTabla("Factura", new String[]{"idFactura INT Primary Key AUTO_INCREMENT", "idMesa INT ", "tipoPago VARCHAR(45)", "importe DECIMAL(10,2)", "Foreign Key (idMesa) REFERENCES Mesa(idMesa)"});
-            crearTabla("Pedido", new String[]{"idPedido INT Primary Key AUTO_INCREMENT", "idFactura INT", "idProducto INT ", "cantidad INT", "Foreign Key (idFactura) REFERENCES Factura(idFactura)", "Foreign Key (idProducto) REFERENCES Productos(idProducto)"});
+            crearTabla("Facturas", new String[]{"idFactura INT Primary Key AUTO_INCREMENT", "idMesa INT ", "tipoPago VARCHAR(45)", "importe DECIMAL(10,2)", "Foreign Key (idMesa) REFERENCES Mesa(idMesa) ON DELETE CASCADE ON UPDATE CASCADE"});
+            crearTabla("Pedido", new String[]{"idPedido INT Primary Key AUTO_INCREMENT", "idFactura INT", "idProducto INT ", "cantidad INT", "Foreign Key (idFactura) REFERENCES Facturas(idFactura) ON DELETE CASCADE ON UPDATE CASCADE", "Foreign Key (idProducto) REFERENCES Productos(idProducto) ON DELETE CASCADE ON UPDATE CASCADE"});
             //Fin de creaciones de tablas
 
 
             //Insertar datos en tablas
+            String ficheroMesa = "src\\Datos\\ad2223.pcornejo.Mesa.sql";
+            String ficheroProductos = "src\\Datos\\ad2223.pcornejo.Productos.sql";
+            String ficheroFacturas = "src\\Datos\\ad2223.pcornejo.Facturas.sql";
+            String ficheroPedido = "src\\Datos\\ad2223.pcornejo.Pedido.sql";
 
+            insertarDatos(ficheroMesa);
+            insertarDatos(ficheroProductos);
+            insertarDatos(ficheroFacturas);
+            insertarDatos(ficheroPedido);
             //Fin de insertar Datos en tablas
 
-
-
-            //listar los datos insertados
-
-            //Fin de listar
-
-
-            //Borrar Tablas de las bases de datos
-
-            //Fin de borrar las tablas
+//
+//            //listar los datos insertados
+//            listar("Select * from ad2223.pcornejo.Mesa", new String[]{"idMesa", "numComensales"});
+//            //Fin de listar
+//
+//
+//            //Borrar Tablas de las bases de datos
+//
+//            String tablaMesa = "ad2223.pcornejo.Mesa";
+//            String tablaProductos = "ad2223.pcornejo.Productos";
+//            String tablaFacturas = "ad2223.pcornejo.Facturas";
+//            String tablaPedidos = "ad2223.pcornejo.Pedido";
+//
+//            borrarTabla(tablaMesa);
+//            borrarTabla(tablaProductos);
+//            borrarTabla(tablaFacturas);
+//            borrarTabla(tablaPedidos);
+//            //Fin de borrar las tablas
 
             statement.close();
             connection.close();
@@ -43,7 +61,6 @@ public class Main {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-
     }
 
     /**
@@ -76,7 +93,7 @@ public class Main {
 
 
     private static void crearTabla(String nombreTabla, String[] nombresCampo) {
-        //String[] campos = {"ID int Primary Key AUTO_INCREMENT","nombre varchar(255)","apellidos varchar(255)","edad int"};
+
         String sql = "CREATE TABLE ad2223_pcornejo." + nombreTabla + " (";
         for (int i = 0; i < nombresCampo.length; i++) {
             sql += nombresCampo[i];
@@ -110,80 +127,58 @@ public class Main {
     }
 
     /**
-     * Descripcion: Metodo para insertar datos de las mesas en nuestra base de datos
+     * Descripcion: Metodo para insertar datos en nuestra base de datos
      * Precondicion: La tabla existe
      * Postcondicion: Lo datos han sido insertados correctamente
      */
 
-    private static void insertarDatosMesas() {
+    private static void insertarDatos(String nombreFichero) {
 
-        //TODO hacerlo desde ficheros xml
-        String[] datos = {"insert into ad2223_pcornejo.Mesa (idMesa, numComensales, reserva) values ('1', '4', 6)"};
         try {
-            for (String sql : datos) {
-                statement.executeUpdate(sql);
+            String linea;
+            BufferedReader bf = new BufferedReader(new FileReader(nombreFichero));
+            while ((linea = bf.readLine() )!= null) {
+
+                statement.executeUpdate(linea);
             }
-        } catch (SQLException e) {
+        } catch (SQLException | IOException e) {
             throw new RuntimeException(e);
         }
     }
 
     /**
-     * Descripcion: Metodo para insertar datos de los Productos en nuestra base de datos
-     * Precondicion: La tabla existe
-     * Postcondicion: Lo datos han sido insertados correctamente
+     * Descripcion: Metodo para leer un archivo y guardar la informacion en un array
+     * Precondicion: Se le pasa por parametro un fichero existente
+     * Postcondicion: Devuelve una lista con los datos del archivo
      */
 
-    private static void insertarDatosProductos() {
+    private static ArrayList<String> leerFichero(File fichero){
+        ArrayList<String> lista = new ArrayList();
+        FileReader fr = null;
+        BufferedReader br;
 
-        //TODO hacerlo desde ficheros xml
-        String[] datos = {"insert into ad2223_pcornejo.Mesa (idMesa, numComensales, reserva) values ('Reuben', 'Tommasetti', 15)"};
         try {
-            for (String sql : datos) {
-                statement.executeUpdate(sql);
+            fr = new FileReader(fichero);
+            br = new BufferedReader(fr);
+            // Lectura del fichero
+            String linea;
+            while ((linea = br.readLine()) != null) {
+                lista.add(linea);
             }
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
+        } catch (IOException e) {
+            e.printStackTrace(System.out);
+        } finally {
+            try {
+                if (fr != null) {
+                    fr.close();
+                }
+            } catch (IOException e2) {
+                e2.printStackTrace(System.out);
+            }
         }
+        return lista;
     }
 
-    /**
-     * Descripcion: Metodo para insertar datos de las Facturas en nuestra base de datos
-     * Precondicion: La tabla existe
-     * Postcondicion: Lo datos han sido insertados correctamente
-     */
-
-    private static void insertarDatosFacturas() {
-
-        //TODO hacerlo desde ficheros xml
-        String[] datos = {"insert into ad2223_pcornejo.Mesa (idMesa, numComensales, reserva) values ('Reuben', 'Tommasetti', 15)"};
-        try {
-            for (String sql : datos) {
-                statement.executeUpdate(sql);
-            }
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
-    }
-
-    /**
-     * Descripcion: Metodo para insertar datos de los Pedidos en nuestra base de datos
-     * Precondicion: La tabla existe
-     * Postcondicion: Lo datos han sido insertados correctamente
-     */
-
-    private static void insertarDatosPedidos() {
-
-        //TODO hacerlo desde ficheros xml
-        String[] datos = {"insert into ad2223_pcornejo.Mesa (idMesa, numComensales, reserva) values ('Reuben', 'Tommasetti', 15)"};
-        try {
-            for (String sql : datos) {
-                statement.executeUpdate(sql);
-            }
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
-    }
 
     /**
      * Descripcion: Metodo para listar o ejecutar una sentencia sql según una sentencia y unos campos metidos por parametros

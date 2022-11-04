@@ -808,6 +808,8 @@ ad2223\\_pcornejo|schema||pcornejo||UPDATE|G</Grants>
     </column>
     <foreign-key id="247" parent="239" name="Factura_ibfk_1">
       <ColNames>idMesa</ColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
       <RefColNames>idMesa</RefColNames>
       <RefTableName>Mesa</RefTableName>
     </foreign-key>
@@ -826,7 +828,7 @@ ad2223\\_pcornejo|schema||pcornejo||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="251" parent="240" name="idMesa">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>51</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -869,11 +871,15 @@ ad2223\\_pcornejo|schema||pcornejo||UPDATE|G</Grants>
     </column>
     <foreign-key id="260" parent="241" name="Pedido_ibfk_1">
       <ColNames>idFactura</ColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
       <RefColNames>idFactura</RefColNames>
       <RefTableName>Factura</RefTableName>
     </foreign-key>
     <foreign-key id="261" parent="241" name="Pedido_ibfk_2">
       <ColNames>idProducto</ColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
       <RefColNames>idProducto</RefColNames>
       <RefTableName>Productos</RefTableName>
     </foreign-key>
@@ -896,7 +902,7 @@ ad2223\\_pcornejo|schema||pcornejo||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="266" parent="242" name="idProducto">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>51</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
