@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="767a2d30-a95b-45f5-adb4-c56234160afb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../operacionNeptuno/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../operacionNeptuno/.idea/libraries/mysql_connector_j_8_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../operacionNeptuno/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../operacionNeptuno/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../operacionNeptuno/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../operacionNeptuno/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../operacionNeptuno/operacionNeptuno.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../operacionNeptuno/out/production/operacionNeptuno/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../operacionNeptuno/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2eceb828-a099-4351-a1e5-25c15a4b1a72" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operacionNeptuno.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/operacionNeptuno/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tarea3-1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GkmoIR0DFXI2gIi31oqfFRacIl" />
+  <component name="ProjectId" id="2HFvpsA2ORt7nkjd8XTz8rl11us" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -39,11 +39,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/pcornejo/Documents/EjercicioSegundo/Acceso_a_Datos/Unidad3_prueba1",
+    "last_opened_file_path": "C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-j-8.0.31.jar",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "project.structure.side.proportion": "0.2"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -51,43 +50,29 @@
     ]
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\pcornejo\Documents\EjercicioSegundo\Acceso_a_Datos\Tarea3-1\src\Datos" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Tarea3-1" />
+      <module name="operacionNeptuno" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ad2223.pcornejo.Facturas.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/src/Datos/ad2223.pcornejo.Facturas.sql" />
-      <script-mode>FILE</script-mode>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Database Script.ad2223.pcornejo.Facturas.sql" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="767a2d30-a95b-45f5-adb4-c56234160afb" name="Changes" comment="" />
-      <created>1666941130643</created>
+      <changelist id="2eceb828-a099-4351-a1e5-25c15a4b1a72" name="Changes" comment="" />
+      <created>1667893833145</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666941130643</updated>
-      <workItem from="1666941132206" duration="7121000" />
-      <workItem from="1667546502005" duration="1542000" />
-      <workItem from="1667548073893" duration="9270000" />
-      <workItem from="1667892889794" duration="3408000" />
+      <updated>1667893833145</updated>
+      <workItem from="1667893834481" duration="5434000" />
     </task>
     <servers />
   </component>
