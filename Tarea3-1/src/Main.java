@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Main {
     private static final String urlConnection = "jdbc:mysql://dns11036.phdns11.es";
-    private static final String user = "pcornejo";
-    private static final String password = "pcornejo";
+    private static final String user = "ad2223_pcornejo";
+    private static final String password = "1234";
 
     public static Statement statement = null;
 
@@ -16,29 +16,29 @@ public class Main {
         try {
             statement = connection.createStatement();
 
-            //Creaciones de tablas
-            crearTabla("Mesa", new String[]{"idMesa INT Primary Key AUTO_INCREMENT", "numComensales INT", "reserva TINYINT"});
-            crearTabla("Productos", new String[]{"idProducto INT Primary Key AUTO_INCREMENT", "denominacion VARCHAR(45)", "precio DECIMAL(10,2)"});
-            crearTabla("Facturas", new String[]{"idFactura INT Primary Key AUTO_INCREMENT", "idMesa INT ", "tipoPago VARCHAR(45)", "importe DECIMAL(10,2)", "Foreign Key (idMesa) REFERENCES Mesa(idMesa) ON DELETE CASCADE ON UPDATE CASCADE"});
-            crearTabla("Pedido", new String[]{"idPedido INT Primary Key AUTO_INCREMENT", "idFactura INT", "idProducto INT ", "cantidad INT", "Foreign Key (idFactura) REFERENCES Facturas(idFactura) ON DELETE CASCADE ON UPDATE CASCADE", "Foreign Key (idProducto) REFERENCES Productos(idProducto) ON DELETE CASCADE ON UPDATE CASCADE"});
-            //Fin de creaciones de tablas
+//            //Creaciones de tablas
+//            crearTabla("Mesa", new String[]{"idMesa INT Primary Key AUTO_INCREMENT", "numComensales INT", "reserva TINYINT"});
+//            crearTabla("Productos", new String[]{"idProducto INT Primary Key AUTO_INCREMENT", "denominacion VARCHAR(45)", "precio DECIMAL(10,2)"});
+//            crearTabla("Facturas", new String[]{"idFactura INT Primary Key AUTO_INCREMENT", "idMesa INT ", "tipoPago VARCHAR(45)", "importe DECIMAL(10,2)", "Foreign Key (idMesa) REFERENCES Mesa(idMesa) ON DELETE CASCADE ON UPDATE CASCADE"});
+//            crearTabla("Pedido", new String[]{"idPedido INT Primary Key AUTO_INCREMENT", "idFactura INT", "idProducto INT ", "cantidad INT", "Foreign Key (idFactura) REFERENCES Facturas(idFactura) ON DELETE CASCADE ON UPDATE CASCADE", "Foreign Key (idProducto) REFERENCES Productos(idProducto) ON DELETE CASCADE ON UPDATE CASCADE"});
+//            //Fin de creaciones de tablas
+//
 
-
-            //Insertar datos en tablas
-            String ficheroMesa = "src\\Datos\\ad2223.pcornejo.Mesa.sql";
-            String ficheroProductos = "src\\Datos\\ad2223.pcornejo.Productos.sql";
-            String ficheroFacturas = "src\\Datos\\ad2223.pcornejo.Facturas.sql";
-            String ficheroPedido = "src\\Datos\\ad2223.pcornejo.Pedido.sql";
-
-            insertarDatos(ficheroMesa);
-            insertarDatos(ficheroProductos);
-            insertarDatos(ficheroFacturas);
-            insertarDatos(ficheroPedido);
-            //Fin de insertar Datos en tablas
+//            //Insertar datos en tablas
+//            String ficheroMesa = "src\\Datos\\ad2223.pcornejo.Mesa.sql";
+//            String ficheroProductos = "src\\Datos\\ad2223.pcornejo.Productos.sql";
+//            String ficheroFacturas = "src\\Datos\\ad2223.pcornejo.Facturas.sql";
+//            String ficheroPedido = "src\\Datos\\ad2223.pcornejo.Pedido.sql";
+//
+//            insertarDatos(ficheroMesa);
+//            insertarDatos(ficheroProductos);
+//            insertarDatos(ficheroFacturas);
+//            insertarDatos(ficheroPedido);
+//            //Fin de insertar Datos en tablas
 
 //
 //            //listar los datos insertados
-//            listar("Select * from ad2223.pcornejo.Mesa", new String[]{"idMesa", "numComensales"});
+//            listar("Select * from ad2223_pcornejo.Mesa", new String[]{"idMesa", "numComensales"});
 //            //Fin de listar
 //
 //
@@ -178,6 +178,25 @@ public class Main {
         }
         return lista;
     }
+
+    /**
+     * Descripcion: Metodo para insertar datos en nuestra base de datos
+     * Precondicion: La tabla existe
+     * Postcondicion: Lo datos han sido insertados correctamente
+     * @param nombreTabla
+     * @param campos
+     * @param condicion
+     */
+        public void modificar(String nombreTabla, String campos, String condicion){// Metodo para modificar
+            try{
+
+                statement.executeUpdate("UPDATE ad2223."+ nombreTabla + "SET " + campos + "WHERE " + condicion);//Consulta
+                System.out.println("Actualizacion Exitosa");
+            }
+            catch (Exception e){//En caso de error
+                e.printStackTrace();
+            }
+        }
 
 
     /**
