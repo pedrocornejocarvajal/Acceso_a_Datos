@@ -2,6 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="767a2d30-a95b-45f5-adb4-c56234160afb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/.idea/libraries/mysql_connector_j_8_0_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/PruebaTrimestre1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/out/production/PruebaTrimestre1/DAL/ConexionBBDD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/out/production/PruebaTrimestre1/DAL/CreacionBBDD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/out/production/PruebaTrimestre1/Entidades/Apuesta.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/out/production/PruebaTrimestre1/Entidades/Persona.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/out/production/PruebaTrimestre1/Entidades/Sorteo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/src/DAL/ConexionBBDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/src/DAL/FicherosDatos/Instrucciones" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/src/DAL/FicherosDatos/Personas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/src/DAL/FicherosDatos/ad2223.pcornejo.Personas.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/src/DAL/ManejadoraBBDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/src/DAL/ManejadoraEntidadesBBDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/src/Entidades/Apuesta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/src/Entidades/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/src/Entidades/Sorteo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaTrimestre1/src/UI/Menus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/pcornejo/Documents/EjercicioSegundo/Acceso_a_Datos/Tarea3-1",
+    "last_opened_file_path": "C:/Users/pcornejo/Documents/EjercicioSegundo/Acceso_a_Datos/Unidad3_prueba1",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -82,6 +106,7 @@
       <workItem from="1668152799887" duration="8056000" />
       <workItem from="1668757332317" duration="55000" />
       <workItem from="1668758510197" duration="2297000" />
+      <workItem from="1669966517519" duration="5225000" />
     </task>
     <servers />
   </component>
