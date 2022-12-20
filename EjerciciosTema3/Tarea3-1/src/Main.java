@@ -17,23 +17,23 @@ public class Main {
             statement = connection.createStatement();
 
 //            //Creaciones de tablas
-//            crearTabla("Mesa", new String[]{"idMesa INT Primary Key AUTO_INCREMENT", "numComensales INT", "reserva TINYINT"});
-//            crearTabla("Productos", new String[]{"idProducto INT Primary Key AUTO_INCREMENT", "denominacion VARCHAR(45)", "precio DECIMAL(10,2)"});
-//            crearTabla("Facturas", new String[]{"idFactura INT Primary Key AUTO_INCREMENT", "idMesa INT ", "tipoPago VARCHAR(45)", "importe DECIMAL(10,2)", "Foreign Key (idMesa) REFERENCES Mesa(idMesa) ON DELETE CASCADE ON UPDATE CASCADE"});
-//            crearTabla("Pedido", new String[]{"idPedido INT Primary Key AUTO_INCREMENT", "idFactura INT", "idProducto INT ", "cantidad INT", "Foreign Key (idFactura) REFERENCES Facturas(idFactura) ON DELETE CASCADE ON UPDATE CASCADE", "Foreign Key (idProducto) REFERENCES Productos(idProducto) ON DELETE CASCADE ON UPDATE CASCADE"});
-//            //Fin de creaciones de tablas
-//
+            crearTabla("Mesa", new String[]{"idMesa INT Primary Key AUTO_INCREMENT", "numComensales INT", "reserva TINYINT"});
+            crearTabla("Productos", new String[]{"idProducto INT Primary Key AUTO_INCREMENT", "denominacion VARCHAR(45)", "precio DECIMAL(10,2)"});
+            crearTabla("Facturas", new String[]{"idFactura INT Primary Key AUTO_INCREMENT", "idMesa INT ", "tipoPago VARCHAR(45)", "importe DECIMAL(10,2)", "Foreign Key (idMesa) REFERENCES Mesa(idMesa) ON DELETE CASCADE ON UPDATE CASCADE"});
+            crearTabla("Pedido", new String[]{"idPedido INT Primary Key AUTO_INCREMENT", "idFactura INT", "idProducto INT ", "cantidad INT", "Foreign Key (idFactura) REFERENCES Facturas(idFactura) ON DELETE CASCADE ON UPDATE CASCADE", "Foreign Key (idProducto) REFERENCES Productos(idProducto) ON DELETE CASCADE ON UPDATE CASCADE"});
+            //Fin de creaciones de tablas
+
 
 //            //Insertar datos en tablas
-//            String ficheroMesa = "src\\Datos\\ad2223.pcornejo.Mesa.sql";
-//            String ficheroProductos = "src\\Datos\\ad2223.pcornejo.Productos.sql";
-//            String ficheroFacturas = "src\\Datos\\ad2223.pcornejo.Facturas.sql";
-//            String ficheroPedido = "src\\Datos\\ad2223.pcornejo.Pedido.sql";
-//
-//            insertarDatos(ficheroMesa);
-//            insertarDatos(ficheroProductos);
-//            insertarDatos(ficheroFacturas);
-//            insertarDatos(ficheroPedido);
+            String ficheroMesa = "src\\Datos\\ad2223.pcornejo.Mesa.sql";
+            String ficheroProductos = "src\\Datos\\ad2223.pcornejo.Productos.sql";
+            String ficheroFacturas = "src\\Datos\\ad2223.pcornejo.Facturas.sql";
+            String ficheroPedido = "src\\Datos\\ad2223.pcornejo.Pedido.sql";
+
+            insertarDatos(ficheroMesa);
+            insertarDatos(ficheroProductos);
+            insertarDatos(ficheroFacturas);
+            insertarDatos(ficheroPedido);
 //            //Fin de insertar Datos en tablas
 
 //
