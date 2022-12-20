@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2eceb828-a099-4351-a1e5-25c15a4b1a72" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1-2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1-2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1-2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1-2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1-2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1-2/Ejercicio 1-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1-2/out/production/Ejercicio 1-2/ApartadoA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1-2/out/production/Ejercicio 1-2/ApartadoB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1-2/out/production/Ejercicio 1-2/final.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1-2/out/production/Ejercicio 1-2/ordenado.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1-2/out/production/Ejercicio 1-2/palabras.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1-2/src/ApartadoA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1-2/src/ApartadoB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1-2/src/final.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1-2/src/ordenado.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1-2/src/palabras.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1_2B/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1_2B/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1_2B/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1_2B/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1_2B/Ejercicio 1_2B.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 1_2B/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/AD/UA01/EJ01/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/AD/UA01/EJ02/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/AD/UA01/EJ03/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/AD/UA01/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/AD/UA02/EJ01/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/AD/UA02/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/AD/UA03/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/Ejercicio1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/out/production/Ejercicio1/apartadoA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/out/production/Ejercicio1/apartadoB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/out/production/Ejercicio1/carpetas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/src/apartadoA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/src/apartadoB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/src/carpetas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosT2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosT2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosT2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosT2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosT2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosT2/EjerciciosT2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosT2/src/Tarea_2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosT2/src/Tarea_2/compras.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosT2/src/Tarea_2/esquemaEjercicio.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/.idea/libraries/mysql_connector_j_8_0_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/PruebaTrimestre1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/out/production/PruebaTrimestre1/DAL/ConexionBBDD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/out/production/PruebaTrimestre1/DAL/CreacionBBDD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/out/production/PruebaTrimestre1/DAL/FicherosDatos/Personas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/out/production/PruebaTrimestre1/DAL/FicherosDatos/ad2223.pcornejo.Personas.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/out/production/PruebaTrimestre1/DAL/ManejadoraPersonas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/out/production/PruebaTrimestre1/Entidades/Apuesta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/out/production/PruebaTrimestre1/Entidades/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/out/production/PruebaTrimestre1/Entidades/Sorteo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/out/production/PruebaTrimestre1/UI/Juego.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/out/production/PruebaTrimestre1/UI/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/out/production/PruebaTrimestre1/UI/Menus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/src/DAL/ConexionBBDD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/src/DAL/FicherosDatos/Instrucciones" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/src/DAL/FicherosDatos/Personas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/src/DAL/FicherosDatos/ad2223.pcornejo.Personas.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/src/DAL/ManejadoraBBDD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/src/DAL/ManejadoraEntidadesBBDD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/src/Entidades/Apuesta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/src/Entidades/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/src/Entidades/Sorteo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/src/UI/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTrimestre1/src/UI/Menus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-2/Tarea2-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-6/Tarea2-6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-6/out/production/Tarea2-6/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-6/out/production/Tarea2-6/fichero.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-6/out/production/Tarea2-6/ficheroFinal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-6/out/production/Tarea2-6/ficheroInicial.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-6/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-6/src/fichero.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-6/src/ficheroFinal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea2-6/src/ficheroInicial.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/.idea/dataSources/80bd8b51-6816-4359-a7b9-dec68ac4a98f.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/.idea/dataSources/80bd8b51-6816-4359-a7b9-dec68ac4a98f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/.idea/libraries/mysql_connector_j_8_0_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/Tarea3-1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/out/production/Tarea3-1/Datos/ad2223.pcornejo.Facturas.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/out/production/Tarea3-1/Datos/ad2223.pcornejo.Mesa.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/out/production/Tarea3-1/Datos/ad2223.pcornejo.Pedido.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/out/production/Tarea3-1/Datos/ad2223.pcornejo.Productos.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/out/production/Tarea3-1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/src/Datos/ad2223.pcornejo.Facturas.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/src/Datos/ad2223.pcornejo.Mesa.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/src/Datos/ad2223.pcornejo.Pedido.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/src/Datos/ad2223.pcornejo.Productos.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea3-1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad3_prueba1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad3_prueba1/.idea/libraries/mysql_connector_j_8_0_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad3_prueba1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad3_prueba1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad3_prueba1/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad3_prueba1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad3_prueba1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad3_prueba1/Unidad3_prueba1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad3_prueba1/out/production/Unidad3_prueba1/Conexion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad3_prueba1/out/production/Unidad3_prueba1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad3_prueba1/out/production/Unidad3_prueba1/NuevaBBDD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad3_prueba1/src/Conexion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad3_prueba1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad3_prueba1/src/NuevaBBDD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/.idea/XML.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/Ejercicio1Ciudades.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/Ejercicio1HechosHistoricos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/AleatorioEmple.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/NUEVODIR/FICHERO1NUEVO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/NUEVODIR/FICHERO2.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/NUEVODIR/FICHERO3.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/out/production/pruebas/CrearDir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/out/production/pruebas/EscribirFichAleatorio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/out/production/pruebas/LeerFichAleatorio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/out/production/pruebas/LeerFichSecuencial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/out/production/pruebas/VerDir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/out/production/pruebas/VerInf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/out/production/pruebas/fichero1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/pruebas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/src/CrearDir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/src/EscribirFichAleatorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/src/LeerFichAleatorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/src/LeerFichSecuencial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/src/VerDir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/src/VerInf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pruebas/src/fichero1.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HFvpsA2ORt7nkjd8XTz8rl11us" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-j-8.0.31.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="operacionNeptuno" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2eceb828-a099-4351-a1e5-25c15a4b1a72" name="Changes" comment="" />
+      <created>1667893833145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667893833145</updated>
+      <workItem from="1667893834481" duration="5434000" />
+      <workItem from="1671524019195" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
